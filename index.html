@@ -13,31 +13,27 @@
     <title>Nafis-Fahim Bank</title>
 </head>
 <body>
-    <!----------------------
-        header section start 
-    ------------------------->
+    <!-- header section start  -->
     <header>
         <h1 class="text-5xl mt-7 text-center">Welcome to <span class="font-semibold text-violet-600">Nafis-Fahim Bank!!</span> </h1>
     </header>
-    <!-- -----------------
-        header section end  
-    ------------------------->
+    <!-- header section end  -->
 
-    <!----------------
-        main start 
-    ------------------->
+    <!-- main start  -->
     <main>
-        <section class="bg-rose-500 w-9/12 mx-auto mt-12 p-8">
+        <!-- login form start  -->
+        <section class="bg-rose-200 w-9/12 mx-auto mt-12 p-8">
             <h3 class="text-3xl font-medium mb-4">Please Login </h3>
-            <input class="w-2/4 block mb-2 py-2 px-3" type="email" placeholder="Enter your Email">
-            <input class="w-2/4 block mb-5 py-2 px-3"  type="password" placeholder="Enter your Password">
-            <button class="bg-blue-600 text-white rounded-md px-5 py-2 hover:bg-blue-800 ">Submit</button>
+            <div>
+            <input id="user-email" class="w-2/4 block mb-2 py-2 px-3" type="email" placeholder="Enter your Email">
+            <input id="user-password" class="w-2/4 block mb-5 py-2 px-3"  type="password" placeholder="Enter your Password">
+            <button id="btn-submit" class="bg-blue-600 text-white rounded-md px-5 py-2 hover:bg-blue-800 ">Submit</button>
+            </div>
         </section>
+        <!-- login form end  -->
 
     </main>
-    <!----------------
-        main end 
-    ------------------->
-    
+    <!-- main end -->
+    <script src="JavaScript/login.js"></script>
 </body>
 </html>
