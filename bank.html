@@ -17,6 +17,7 @@
 
     <!-- stat main  -->
     <main>
+        <!-- balance section start  -->
         <section class="mt-12">
             <div class="grid grid-cols-3 gap-3 w-9/12 mx-auto text-white" >
                 <div class="bg-green-400 p-8 rounded-xl">
@@ -33,8 +34,29 @@
                 </div>
             </div>
         </section>
+        <!-- balance section end  -->
+
+        <!-- deposit and withdraw menu start   -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-3 w-9/12 mx-auto" >
+                <div class="bg-teal-300 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-2 font-medium text-white">Please Deposit</h4>
+                    <input id="deposit-field" class="w-2/4 block mb-2 py-2 px-3" type="text" placeholder="Enter $ amount">
+                    <button id="btn-diposit" class="bg-blue-600 text-white font-medium rounded-md px-5 py-2 hover:bg-blue-800 ">Deposit</button>
+                </div>
+                <div class="bg-fuchsia-400 p-8 rounded-xl">
+                    <h4 class="text-2xl font-medium mb-2 text-white">Please Withdraw</h4>
+                    <input id="deposit-field" class="w-2/4 block mb-2 py-2 px-3" type="text" placeholder="Enter $ amount ">
+                    <button id="btn-submit" class="bg-blue-600 text-white font-medium rounded-md px-5 py-2 hover:bg-blue-800 ">Withdraw</button>
+                </div>
+            </div>
+        </section>
+        <!-- deposit and withdraw menu end  -->
     </main>
     
     <!-- main end  -->
+
+    <!-- connect JS file  -->
+    <script src="JavaScript/deposit.js"></script>
 </body>
 </html>
